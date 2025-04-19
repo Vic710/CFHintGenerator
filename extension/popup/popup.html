@@ -1,3 +1,4 @@
+<!-- popup/popup.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +15,18 @@
         <h1>CodeForces Hint Helper</h1>
       </div>
     </header>
+
+    <!-- API Key Entry -->
+    <div id="key-entry" class="actions">
+      <input type="password" id="api-key-input" placeholder="Enter your Gemini API Key" />
+      <button id="save-api-key-btn" class="primary-button">Save Key</button>
+    </div>
+    <div id="key-error" class="error-message hidden"></div>
+
+    <!-- Change Key -->
+    <div id="change-key-container" class="actions hidden">
+      <button id="change-api-key-btn" class="primary-button">Change API Key</button>
+    </div>
 
     <div id="status-message" class="info-message">
       <p>Click the button below to get hints for the current Codeforces problem.</p>
@@ -34,12 +47,10 @@
         <button id="hint1-btn" class="hint-button">Show Hint 1</button>
         <div id="hint1-content" class="hint-content hidden"></div>
       </div>
-      
       <div class="hint-box hidden" id="hint2-box">
         <button id="hint2-btn" class="hint-button">Show Hint 2</button>
         <div id="hint2-content" class="hint-content hidden"></div>
       </div>
-      
       <div class="hint-box hidden" id="hint3-box">
         <button id="hint3-btn" class="hint-button">Show Hint 3</button>
         <div id="hint3-content" class="hint-content hidden"></div>

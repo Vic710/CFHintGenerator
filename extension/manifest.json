@@ -7,7 +7,8 @@
     "scripting",
     "downloads",
     "tabs",
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "host_permissions": [
     "https://codeforces.com/*",
