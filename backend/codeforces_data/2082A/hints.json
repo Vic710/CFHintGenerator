@@ -1,7 +1,0 @@
-{
-  "hints": [
-    "Consider the XOR sum of each row and column.",
-    "Determine the number of rows and columns that have an XOR sum of 1.",
-    "The minimum number of changes is related to the maximum of the number of rows and columns found in the previous step."
-  ]
-}

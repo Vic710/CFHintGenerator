@@ -1,7 +1,0 @@
-{
-  "hints": [
-    "Consider the final length of the sequence after performing m operations.",
-    "What's the upper bound for the MEX of the sequence after m operations?",
-    "Try to construct a sequence where the distance between the same numbers is at least k."
-  ]
-}
