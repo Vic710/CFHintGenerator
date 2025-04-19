@@ -1,5 +1,5 @@
 // background.js
-const SERVER_BASE_URL = 'https://cfhintgenerator.onrender.com';
+const SERVER_BASE_URL = 'https://cf-hint-generator.vercel.app/';
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === 'processCodeforcesProblem') {

@@ -1,5 +1,5 @@
 // popup/popup.js
-const SERVER_BASE_URL = 'https://cfhintgenerator.onrender.com';
+const SERVER_BASE_URL = 'https://cf-hint-generator.vercel.app/';
 
 document.addEventListener('DOMContentLoaded', () => {
   // API key UI
