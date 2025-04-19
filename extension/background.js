@@ -124,10 +124,10 @@ function sendToServer(data) {
   .catch(err => {
     console.error('❌ sendToServer failed:', err);
     // fallback download
-    const ext = data.type.includes('html') ? 'html' : 'txt';
-    const name = `CF_${data.problemCode}_${data.type}.${ext}`;
-    const blobUrl = 'data:text/plain,' + encodeURIComponent(data.content);
-    chrome.downloads.download({ filename: name, url: blobUrl, conflictAction: 'overwrite' });
+    // const ext = data.type.includes('html') ? 'html' : 'txt';
+    // const name = `CF_${data.problemCode}_${data.type}.${ext}`;
+    // const blobUrl = 'data:text/plain,' + encodeURIComponent(data.content);
+    // chrome.downloads.download({ filename: name, url: blobUrl, conflictAction: 'overwrite' });
     throw err;
   });
 }
